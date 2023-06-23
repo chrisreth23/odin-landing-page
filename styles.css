@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -51,11 +52,11 @@ a {
 }
 
 img {
-    margin: 50px;
     width: 500px;
+    margin-bottom: 50px;
 }
 
-.main-text {
+h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -63,15 +64,33 @@ img {
 
 .secondary-text {
     font: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
-.content-left, .content-right {
+.content-right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 50%;
+}
+
+.content-left {
+    display: flex; 
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px #3882f6;
+    /* to make rounded edges of button */
+    border-radius: 10px;
 }
 
 
