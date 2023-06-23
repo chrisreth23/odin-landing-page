@@ -23,8 +23,8 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 16px;
     margin: 10px;
+    gap: 16px;
 }
 
 .navbar-left, .navbar-right {
@@ -40,14 +40,19 @@ a {
     font: 18px;
 }
    
-.first-section, .second-section{
+.first-section {
     background-color: #1f2937;
 }
 
-.second-section {
+.content {
     display: flex;
     flex-direction: row;
-    padding-top: 100px;
+    margin: 50px;
+}
+
+img {
+    margin: 50px;
+    width: 500px;
 }
 
 .main-text {
@@ -66,6 +71,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
 }
 
 
