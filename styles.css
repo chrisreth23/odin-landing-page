@@ -91,7 +91,47 @@ h1 {
     border: 1px #3882f6;
     /* to make rounded edges of button */
     border-radius: 10px;
+    margin-top: 10px;
 }
+
+h2 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row-of-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 50px ;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.blue-box {
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
 
 
 
